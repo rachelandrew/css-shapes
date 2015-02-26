@@ -33,12 +33,23 @@
     shape-margin: 20px;
   }
 
+  .content:before {
+    content: "";
+    float: left;
+    width: 200px;
+    height: 200px;
+    shape-outside: url('noun_109069.png');
+    shape-image-threshold: 0.5;
+  }
+
 
   </style>
 </head>
 <body>
 	<div class="container">
 	<h1>Using an image</h1>
+
+  <h2>Image Alpha as path of shape</h2>
 
 	<div class="s-box">
 		<img src="noun_109069.png" alt="" width="200" class="shape shape-image">
@@ -47,8 +58,18 @@
 		<p>Upon fowl. Above fowl heaven signs blessed them firmament heaven i they're heaven it female great void set gathering be. It, he.</p>
 	</div>
 
+  <h2>Image alpha as path of shape plus shape-margin set</h2>
+
   <div class="s-box">
     <img src="noun_109207_cc.png" alt="" width="200" class="shape shape-image-margin">
+    <p>Replenish brought yielding saw appear. Midst called wherein above. Rule sea so created. Fifth upon beginning sixth which given Form us give over saw creepeth forth given bring won't after thing land behold waters life. Years. Open said unto evening sixth creepeth earth seas. Give created. In winged.</p>
+    <p>Cattle creeping they're. Is, herb made darkness replenish set said his seasons had had days evening creepeth. Fruitful every together together seasons shall fruitful it Appear Multiply. Creeping sea have.</p>
+    <p>Upon fowl. Above fowl heaven signs blessed them firmament heaven i they're heaven it female great void set gathering be. It, he.</p>
+  </div>
+
+  <h2>Used in generated content</h2>
+
+  <div class="s-box content">
     <p>Replenish brought yielding saw appear. Midst called wherein above. Rule sea so created. Fifth upon beginning sixth which given Form us give over saw creepeth forth given bring won't after thing land behold waters life. Years. Open said unto evening sixth creepeth earth seas. Give created. In winged.</p>
     <p>Cattle creeping they're. Is, herb made darkness replenish set said his seasons had had days evening creepeth. Fruitful every together together seasons shall fruitful it Appear Multiply. Creeping sea have.</p>
     <p>Upon fowl. Above fowl heaven signs blessed them firmament heaven i they're heaven it female great void set gathering be. It, he.</p>
