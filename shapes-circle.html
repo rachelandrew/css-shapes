@@ -26,6 +26,14 @@
   	border: 10px solid #999999;
   }
 
+  .circle {
+  	shape-outside: circle(50%);
+  }
+
+  .circle-coords {
+  	shape-outside: circle(50% at 30% 30%);
+  }
+
   .circle-margin-box {
   	shape-outside: circle(50%) margin-box;
   }
@@ -45,6 +53,7 @@
   .circle-clip {
   	shape-outside: circle(50%) margin-box;
   	-webkit-clip-path: circle(50%) ;
+  	clip-path: circle(50%) ;
   }
 
 
@@ -55,6 +64,24 @@
 <body>
 	<div class="container">
 	<h1>shape-outside: circle()</h1>
+
+	<h2>Simple circle</h2>
+
+	<div class="s-box">
+		<img src="noun_109069.png" alt="" width="150" class="shape circle">
+		<p>Replenish brought yielding saw appear. Midst called wherein above. Rule sea so created. Fifth upon beginning sixth which given Form us give over saw creepeth forth given bring won't after thing land behold waters life. Years. Open said unto evening sixth creepeth earth seas. Give created. In winged.</p>
+		<p>Cattle creeping they're. Is, herb made darkness replenish set said his seasons had had days evening creepeth. Fruitful every together together seasons shall fruitful it Appear Multiply. Creeping sea have.</p>
+		<p>Upon fowl. Above fowl heaven signs blessed them firmament heaven i they're heaven it female great void set gathering be. It, he.</p>
+	</div>
+
+	<h2>Setting coordinates</h2>
+
+	<div class="s-box">
+		<img src="noun_109069.png" alt="" width="150" class="shape circle-coords">
+		<p>Replenish brought yielding saw appear. Midst called wherein above. Rule sea so created. Fifth upon beginning sixth which given Form us give over saw creepeth forth given bring won't after thing land behold waters life. Years. Open said unto evening sixth creepeth earth seas. Give created. In winged.</p>
+		<p>Cattle creeping they're. Is, herb made darkness replenish set said his seasons had had days evening creepeth. Fruitful every together together seasons shall fruitful it Appear Multiply. Creeping sea have.</p>
+		<p>Upon fowl. Above fowl heaven signs blessed them firmament heaven i they're heaven it female great void set gathering be. It, he.</p>
+	</div>
 
 	<h2>margin-box</h2>
 
